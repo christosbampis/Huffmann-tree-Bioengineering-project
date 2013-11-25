@@ -1,8 +1,6 @@
 function [targetsall,coder,magic,sum] = allhuff(originalother,p,coderinput,resolution)
 
-fprintf('coding of %s \n',coderinput);
-
-%   katastrwsh dentrou-pinaka magic me bash to alfabhto 
+disp(sprintf('coding stage  :%s', coderinput));
 
 N_symbols=length(originalother);
 
