@@ -1,7 +1,7 @@
 function [CR,bestCR,bits_huff,bits_no_huff,entr_bits,percentofentropy,yfinal,coder,magic,targets] = everything(resolution,originalother,coderinput,p,ynew,optimal)
 
 [targets,coder,magic,sum]=allhuff(originalother,p,coderinput,resolution);
-disp(targets);
+disp(sprintf('decoding stage:%s', targets));
 
 for i=1:length(targets)
 
@@ -29,4 +29,6 @@ CR=bits_huff/bits_no_huff;
 bestCR=entr_bits/bits_no_huff;
 
 end
+
+
 
