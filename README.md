@@ -11,7 +11,8 @@ each symbol is then matched to its original one without losing data. There is on
 step in the beginning in order to create a Huffmann alphabet.
 
 Note 1 : full code is not uploaded yet. Check the results file.
-Note 2 : A report in this project is also uploaded in Greek. More diagrams are available there
+
+Note 2 : A report in this project is also available in Greek (send email). More diagrams are available there
 explaining the implementation and the theoretical background.
 
 For more information/Matlab code email at: herc_christos [at] hotmail.com
