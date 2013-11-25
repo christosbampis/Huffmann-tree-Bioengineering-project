@@ -10,7 +10,8 @@ the creation of Huffmann tree, both procedures, encoding and decoding are being 
 each symbol is then matched to its original one without losing data. There is only a quantization
 step in the beginning in order to create a Huffmann alphabet.
 
-Note 1 : full code has been uploaded. Run main.m and check the results file.
+Note 1 : full code has been uploaded. Download ecg.mat from http://www.filedropper.com/ecg,
+run main.m and check the results file.
 
 Note 2 : A report in this project is also available in Greek (send email). More diagrams are available there
 explaining the implementation and the theoretical background.
